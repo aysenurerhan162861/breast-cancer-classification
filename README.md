@@ -16,7 +16,7 @@ sınıflandıran bir model geliştirilmiştir.
 - **Eksik veri:** Yok
 
 ## ⚙️ Kullanılan Yöntem
-**Random Forest (Rastgele Orman)** algoritması kullanılmıştır.
+**Random Forest (Rastgele Orman)** algoritması kullanılmıştır. 
 
 ## 📈 Sonuçlar
 | Metrik | Sonuç |
@@ -25,6 +25,11 @@ sınıflandıran bir model geliştirilmiştir.
 | Precision | %100.00 |
 | Recall | %92.86 |
 | F1-Score | %96.30 |
+
+Eğitim seti doğruluğu : %100.00
+Test seti doğruluğu   : %97.37
+Fark                  : %2.63
+Overfitting gözlemlenmemiştir.
 
 ## 📁 Dosyalar
 - `breast_cancer_classification.ipynb` → Kodlar ve açıklamalar
